@@ -10,6 +10,6 @@ import cpw.mods.fml.common.Mod;
 public class Rustic {
     @Mod.EventHandler
     public void preInit(){
-        //TODO This is a commit that will be changed
+        //TODO
     }
 }
