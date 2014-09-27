@@ -10,6 +10,6 @@ import cpw.mods.fml.common.Mod;
 public class Rustic {
     @Mod.EventHandler
     public void preInit(){
-        //TODO AGAIN
+        //TODO AGAIN I changed this in the browser
     }
 }
