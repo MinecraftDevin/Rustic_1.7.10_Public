@@ -8,5 +8,8 @@ import cpw.mods.fml.common.Mod;
 
 @Mod(modid="Rustic", name = "Rustic", version = "1.7.2-0.0.1") //Tells Forge that this is a mod
 public class Rustic {
-
+    @Mod.EventHandler
+    public void preInit(){
+        //TODO
+    }
 }
