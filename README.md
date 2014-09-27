@@ -20,7 +20,7 @@ I am currently a student attending College for Java programming. I have done a l
 ###Contributing
 ***
 
-I can not say hey give me this or that because I havent done anything. On the other hand, I am still learning Java and especially learning they way Minecraft is coded. If you wish to help in certain ways I will being willing to accept it. The two main things I already know I need help with would be:
+I can not say hey give me this or that because I haven't done anything. On the other hand, I am still learning Java and especially learning they way Minecraft is coded. If you wish to help in certain ways I will being willing to accept it. The two main things I already know I need help with would be:
 - power system (learning how to do packets handling to make machines and a power netowrk)
 - Textures (I've done all of my own currently, but I'm a little anal about how things look, and I don't like my own skills with textures)
  
