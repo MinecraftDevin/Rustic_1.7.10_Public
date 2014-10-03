@@ -1,0 +1,21 @@
+[
+{
+  "modid": "Rustic",
+  "name": "Rustic",
+  "description": "A Steampunk themed mod.",
+  "version": "0.0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "bigbaddevil7"
+  ],
+  "credits": "Thanks to all preceding mod authors for inspiring me and helping me to make this mod.",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
