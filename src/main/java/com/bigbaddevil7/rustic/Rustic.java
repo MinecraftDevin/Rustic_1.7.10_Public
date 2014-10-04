@@ -1,6 +1,7 @@
 package com.bigbaddevil7.rustic;
 
 import com.bigbaddevil7.rustic.handler.ConfigurationHandler;
+import com.bigbaddevil7.rustic.init.ModItems;
 import com.bigbaddevil7.rustic.proxy.IProxy;
 import com.bigbaddevil7.rustic.reference.Reference;
 import com.bigbaddevil7.rustic.utility.LogHelper;
@@ -30,6 +31,7 @@ public class Rustic {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());//Looks to my configuration handler and passes the suggested file
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre Initialization Complete");
+        ModItems.init();
     }
 
 
