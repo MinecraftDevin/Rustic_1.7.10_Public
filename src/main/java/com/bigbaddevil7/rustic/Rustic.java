@@ -1,5 +1,6 @@
 package com.bigbaddevil7.rustic;
 
+import com.bigbaddevil7.rustic.configuration.ConfigurationHandler;
 import com.bigbaddevil7.rustic.proxy.IProxy;
 import com.bigbaddevil7.rustic.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -24,7 +25,7 @@ public class Rustic {
     @Mod.EventHandler
     //The preInit would be where you would initalize configs, network handlers, key binding, blocks, items, ect...
     public void preInit(FMLPreInitializationEvent event){
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());//Looks to my configuration handler and passes the suggested file
     }
 
 
