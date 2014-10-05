@@ -1,5 +1,6 @@
 package com.bigbaddevil7.rustic.item;
 
+import com.bigbaddevil7.rustic.creativeTab.CreativeTabRustic;
 import com.bigbaddevil7.rustic.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ import net.minecraft.item.ItemStack;
 public class ItemRustic extends Item {
     public ItemRustic(){
         super();
+        this.setCreativeTab(CreativeTabRustic.RUSTIC_TAB);
     }
 
     @Override

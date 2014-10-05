@@ -1,6 +1,7 @@
 package com.bigbaddevil7.rustic;
 
 import com.bigbaddevil7.rustic.handler.ConfigurationHandler;
+import com.bigbaddevil7.rustic.init.ModBlocks;
 import com.bigbaddevil7.rustic.init.ModItems;
 import com.bigbaddevil7.rustic.proxy.IProxy;
 import com.bigbaddevil7.rustic.reference.Reference;
@@ -29,9 +30,10 @@ public class Rustic {
     //The preInit would be where you would initalize configs, network handlers, key binding, blocks, items, ect...
     public void preInit(FMLPreInitializationEvent event){
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());//Looks to my configuration handler and passes the suggested file
-        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());//Registers the handler to the bus to allow for it to listen for events
         LogHelper.info("Pre Initialization Complete");
-        ModItems.init();
+        ModItems.init();//Registers my items
+        ModBlocks.init();//Registers my blocks
     }
 
 
