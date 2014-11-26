@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Mystery+Quest);
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
 body {
   margin: 0;
   padding: 0;
@@ -80,7 +81,7 @@ header h2 {
 
 #main_content {
   width: 100%;
-  font-family: Mystery Quest, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: Walter Turncoat, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
 }
